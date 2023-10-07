@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="row">
+        
+        <div class="col-6">
+          <!-- <img class="pic" src="https://img.freepik.com/free-vector/sticker-template-with-happy-big-family-members_1308-62600.jpg?w=2000" alt=""></div> -->
+          <h1>Family Budget</h1>
+          <p>
+            
+            It's not how much money you make,<br> but how much money you keep, <br> how hard it works for you, and how many generations you keep it for.<br>
+          </p>
+          </div>
+        <div class="col-6 bo">
+          <div class="inp">
+
+         <input type="text" id="lnum" placeholder="Enter Your House Number"> <br> <br>
+         <input type="password" id="lpwd" placeholder="Enter Your Password"> <br> <br>
+         <button class="log" onclick="login()">Login</button> <br> <br>
+
+         <div class="si">
+          <button id="newac" type="button" class="btn btn-success create" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+             Sign In
+             </button>
+              
+             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title fs-3" id="staticBackdropLabel">Create a new account</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body input1">
+                       
+             
+             
+                         <input type="text" id="h_num" placeholder="House Number">
+                         <input type="text" id="o_name" placeholder="Owner Name">
+                         <input type="text" id="no_members" placeholder="No. of Members">
+                         <input type="password" id="reg_pass" placeholder="Enter Password">
+                         <input type="password" id="re_pass" placeholder="Re-Enter Password">
+             
+             
+             
+                     </div>
+                     <div class="modal-footer">
+                       <input type="button"  onclick="signup()" class="btn btn-success" value="SIGN UP">
+                     </div>
+                   </div>
+                 </div>
+               </div>
+        </div>
+
+
+           
+        </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(202, 188, 167);
+}
+h1{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size: x-large;
+    font-weight: 500%;
+    font-style: italic;
+}
+.pic{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+p{
+    position: relative;
+    left: 30px;
+    top: 150px;
+}
+.bo{
+    
+    position: relative;
+    width: 100px;
+    top: 100px;
+}
+.inp{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: rgba(131, 201, 182, 0.27);
+}
+input{
+    position: relative;
+    left: 90px;
+    width: 300px;
+    height: 50px;
+}
+.log{
+    position: relative;
+    left: 190px;
+    background-color: blue;
+    color: white;
+}
+.create{
+    left: -200px;
+    position: relative;
+    top: 50px;
+    border: 2px solid black;
+    width: 200px;
+}
+.si{
+    position: relative;
+    left: 190px;
+    bottom: 5px;
+}
+
+
+.input{
+    position: relative;
+    left: 300px;
+}
+
+.btn{
+    position: relative;
+    left: -70px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .inp{
+        /* border: 2px solid black; */
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 0px;
+        padding-left: 30px;
+        padding-top: 10px;
+        background-color: rgba(131, 201, 182, 0.27);
+    }
+
+    input{
+        position: relative;
+        left: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .log{
+        position: relative;
+        left: 70px;
+        background-color: blue;
+        color: white;
+    }
+
+    .si{
+        position: relative;
+        left: 90px;
+        bottom: 5px;
+    }
+}

@@ -1,0 +1,145 @@
+.row1{
+    display: flex;
+}
+.row7{
+    display: flex;
+    position: relative;
+    left: 200px;
+}
+.logba{
+    background-color: black;
+}
+.fam{
+    color: white;
+}
+.logdesign{
+    position: relative;
+    left: 900px;
+    background-color: red;
+    color: white;
+
+}
+
+.inc{
+    border: 2px solid black;
+    left: 50px;
+    position: relative;
+    width: 300px;
+    padding-left: 50px;
+    top: 50px;
+    padding-bottom: 5px;
+    background-color: rgba(131, 201, 182, 0.27);
+}
+h3{
+    position: relative;
+    left: 40px;
+}
+.add{
+    position: relative;
+    left: 70px;
+}
+.row1{
+    left: 150px;
+    position: relative;
+    top: 300px;
+    padding-left: 80px;
+    
+}
+.tot{
+    position: relative;
+    left: 250px;
+}
+span{
+    position: relative;
+    left: 280px;
+}
+.bud{
+    position: relative;
+    border: 2px solid black;
+    left: 50px;
+    width: 10px;
+    font-weight: bolder;
+    background-color: aquamarine;
+}
+.row5{
+    position: relative;
+    left: 600px;
+    border: 2px solid black;
+    width: 300px;
+}
+.row2{
+    display: flex;
+    position: relative;
+    top: 200px;
+   
+}
+
+.design{
+    position: relative;
+    border: 2px solid black;
+    top: 20px;
+}
+
+.row{
+    height: 100px;
+    /* border: 2px solid black; */
+    
+}
+
+table,tr,td,th{
+    border: 2px solid gray;
+}
+
+#intable{
+    background-color: green;
+    color: aliceblue;
+}
+#extable{
+    background-color: orange;
+}
+
+@media only screen and (max-width: 600px){
+    .row7{
+        display: block;
+        position: relative;
+        left: 10px;
+        margin: 2px;
+    }
+
+    .row5{
+        position: relative;
+        left: 60px;
+        border: 2px solid black;
+        width: 300px;
+        top: 60px;
+    }
+    .row1{
+        display: block;
+    }
+
+    .bud{
+        position: relative;
+        border: 2px solid black;
+        left: 10px;
+        width: 10px;
+        font-weight: bolder;
+        background-color: aquamarine;
+    }
+
+    .tot{
+        position: relative;
+        left: 50px;
+    }
+    span{
+        position: relative;
+        left: 50px;
+    }
+
+    .logdesign{
+        position: relative;
+        left: 300px;
+        background-color: red;
+        color: white;
+    
+    }
+}
